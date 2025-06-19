@@ -1,0 +1,32 @@
+{
+  "name": "init-npm",
+  "version": "1.0.0",
+  "description": "netology-init-npm-lection2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Elena-Yakovleva/JSAQA.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Elena Yakovleva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elena-Yakovleva/JSAQA/issues"
+  },
+  "homepage": "https://github.com/Elena-Yakovleva/JSAQA#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0",
+    "js-beautify": "^1.15.4",
+    "prettier": "^3.5.3"
+  }
+}
