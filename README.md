@@ -11,11 +11,11 @@
   * [Задача 1](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection2/index.js)
 
 
-[Jest. Playwright]().
-* [Условия задания для Jest]()
-  * [Задача 1]()
-* [Условия задания для Playwright]()
-  * [Задача 2]()
+[Jest. Playwright](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection3/README.md).
+* [Условия задания для Jest](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection3/Jest/README.md)
+  * [Задача 1](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection3/Jest/tests/sortByName.test.js)
+* [Условия задания для Playwright](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection3/Playwright/README.md)
+  * [Задача 2](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection3/Playwright/tests/Auth.spec.js)
 
 
 [Puppeteer. Часть 1]().

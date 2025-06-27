@@ -164,9 +164,15 @@ const { chromium } = require("playwright");
  npx - упрощенна команда, которая помогает запускать флеймворки, функциональности без их установки 
  npm - позволяет устанавливать необходимые библиотеки
 
-```
 настройки headless режима добавляются в конфиг файле в параметре use 
-![alt text](img/image1.png)
+```
+ use: {
+    launchOptions: {
+      headless: false,
+      slowMo: 1000,
+      devtools: true
+  },
+```
 
 ```
   npx playwright test                    // Runs the end-to-end tests.
@@ -179,5 +185,58 @@ const { chromium } = require("playwright");
 We suggest that you begin by typing:
 
     npx playwright test
+
+```
+
+Основные matchers в Playwright:
+```
+.toBe            // Проверяет точное равенство значений.
+.toEqual         // Проверяет глубокое равенство объектов или массивов.
+       expect({ a: 1, b: 2 }).toEqual({ a: 1, b: 2 });
+       
+.toBeNull        // Проверяет, что значение равно null.
+       expect(null).toBeNull();
+       
+.toBeUndefined   // Проверяет, что значение равно undefined.
+       expect(undefined).toBeUndefined();
+       
+.toBeDefined     // Проверяет, что значение определено (не равно undefined).
+       expect(1).toBeDefined();
+       
+.toBeTruthy      // Проверяет, что значение является "истинным" в логическом контексте.
+       expect(1).toBeTruthy();
+       
+.toBeFalsy       // Проверяет, что значение является "ложным" в логическом контексте.
+       expect(0).toBeFalsy();
+       
+.toBeGreaterThan // Проверяет, что значение больше заданного.
+       expect(5).toBeGreaterThan(3);
+       
+.toBeLessThan    // Проверяет, что значение меньше заданного.
+       expect(3).toBeLessThan(5);
+       
+.toContain      // Проверяет, что массив или строка содержит заданное значение.
+       expect([1, 2, 3]).toContain(2);
+       
+.toMatch        // Проверяет, что строка соответствует заданному регулярному выражению.
+       expect('hello').toMatch(/h.*o/);
+
+.toThrow        // Проверяет, что функция выбрасывает исключение.
+       expect(() => { throw new Error('error'); }).toThrow();
+
+.toHaveLength   // Проверяет длину массива или строки.
+       expect([1, 2, 3]).toHaveLength(3);
+
+.toHaveText     // Проверяет, что элемент содержит заданный текст.
+       await expect(page.locator('h1')).toHaveText('Welcome');
+
+.toBeVisible    // Проверяет, что элемент виден.
+       await expect(page.locator('button')).toBeVisible();
+
+.toBeHidden     // Проверяет, что элемент скрыт.
+       await expect(page.locator('button')).toBeHidden();
+
+.toHaveURL      // Проверяет, что URL страницы соответствует заданному.
+       await expect(page).toHaveURL('https://example.com');
 
 ```
