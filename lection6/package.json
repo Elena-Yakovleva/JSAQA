@@ -1,0 +1,20 @@
+{
+  "name": "cypress-1-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome:headed": "cypress run --browser chrome --headed --config-file cypress.config.js",
+    "firefox:headless": "cypress run --browser firefox --headless --config-file cypress.config.js",
+    "chrome:moby:headed": "cypress run --browser chrome --headed --config-file cypressMoby.config.js",
+    "firefox:moby:headless": "cypress run --browser firefox --headless --config-file cypressMoby.config.js"
+  },
+  "author": "Elena Yakovleva",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "chai": "^5.2.0",
+    "cypress": "^14.5.1"
+  }
+}

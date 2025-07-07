@@ -22,9 +22,12 @@
 * [Условия задания](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection4/lection4.md)
   * [Puppeteer timeout](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection4/gh.test.js)
 
-[Puppeteer. Часть 2]().
-* [Условия задания]()
-  * [Задача 1]()
+[Puppeteer. Часть 2](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection5/README.md).
+* [Условия задания](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection5/lection5.md)
+  * [Puppeteer](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection5/app.test.js)
+  * [Cucumber]()
+     * [Адаптация](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection5/features/search.feature)
+     * [Код](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection5/features/step_definitions/search.steps.js)
 
 [Cypress. Часть 1]().
 * [Условия задания]()
