@@ -34,9 +34,15 @@
   * [BooksApp](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection6/cypress/e2e/books.cy.js)
 
 [Cypress. Часть 2]().
-* [Условия задания]()
+* [Условия задания](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection7/README.md)
   * [Задача 1]()
+    * [admin](https://github.com/Elena-Yakovleva/JSAQA/tree/main/lection7/task-1-2/cypress/e2e/admin)
+    * [booking](https://github.com/Elena-Yakovleva/JSAQA/tree/main/lection7/task-1-2/cypress/e2e/booking)
+  * [Задача 2-Dashboard](https://cloud.cypress.io/projects/h95bh2/)
+  * [Задача 3](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection7/task3/e2e/api.cy.js)
+  * [Задача 3-Dashboard](https://cloud.cypress.io/projects/3uytpf/)
 
 [CI/СD]().
+
 * [Условия задания]()
   * [Задача 1]()
