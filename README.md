@@ -46,3 +46,4 @@
 
 * [Условия задания]()
   * [Задача 1]()
+<img width="1268" height="894" alt="image" src="https://github.com/user-attachments/assets/40b03592-0fe4-4198-8fef-82e4daadf87d" />
