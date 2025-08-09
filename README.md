@@ -44,5 +44,8 @@
 
 [CI/СD]().
 
-* [Условия задания]()
+* [Условия заданий](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection8/lection8.md)
   * [Задача 1]()
+  * [Задача 2]()
+
+
