@@ -1,0 +1,15 @@
+{
+  "name": "cypress-3-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome": "cypress run --browser chrome --headless --spec './cypress/e2e/'"
+  },
+  "author": "Elena Yakovleva",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  }
+}

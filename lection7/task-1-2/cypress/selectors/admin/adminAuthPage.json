@@ -1,0 +1,5 @@
+{
+  "loginTitle": ".login__title",
+  "loginWrapper": ".login__wrapper",
+  "loginButton": ".login__button"
+}

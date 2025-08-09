@@ -1,0 +1,16 @@
+{
+  "name": "cypress-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome:headed:admin": "cypress run --browser chrome --headed --spec './cypress/e2e/admin/'",
+    "chrome:headed:booking": "cypress run --browser chrome --headed --spec './cypress/e2e/booking/'"
+  },
+  "author": "Elena Yakovleva",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  }
+}

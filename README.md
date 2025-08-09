@@ -29,9 +29,9 @@
      * [Адаптация](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection5/features/search.feature)
      * [Код](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection5/features/step_definitions/search.steps.js)
 
-[Cypress. Часть 1]().
-* [Условия задания]()
-  * [Задача 1]()
+[Cypress. Часть 1](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection6/README.md).
+* [Условия задания](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection6/lection6.md)
+  * [BooksApp](https://github.com/Elena-Yakovleva/JSAQA/blob/main/lection6/cypress/e2e/books.cy.js)
 
 [Cypress. Часть 2]().
 * [Условия задания]()
